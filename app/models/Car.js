@@ -1,7 +1,7 @@
 import { generateId } from "../utils/generateId.js"
 
 export class Car {
-  constructor (data) {
+  constructor(data) {
     // NOTE generates a unique identifier so we can find specific items in our appstate
     this.id = generateId()
     this.img = data.img
